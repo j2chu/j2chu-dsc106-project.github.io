@@ -1,1 +1,1 @@
-# j2chu.github.io
+# j2chu-dsc106-project.github.io
