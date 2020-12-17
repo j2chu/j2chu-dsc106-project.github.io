@@ -1,0 +1,68 @@
+* {
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+h1, h3 {
+    font-family: 'Paytone One', monospace;
+}
+
+#description, .flex{
+    display: grid;
+    grid-column-gap: 50px;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+}
+#regions1, #regions2{
+    display: grid;
+    grid-column-gap: 50px;
+    grid-template-columns: auto auto auto auto;
+    text-align: center;
+}
+
+.region_image {
+    cursor: pointer;
+}
+
+.chart-parent--container {
+    display: flex;
+}
+
+.chart--container {
+    height: 100%;
+    width: 100%;
+    min-height: 400px;
+}
+
+.pokemonTitle {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+.region_image {
+    width: 75%;
+    height: auto;
+}
+.pokemon {
+    width: 50%;
+    height: auto;
+}
+
+.pokemon_gen_highlight, .pokemonTitle2, .subtitle{
+    text-align: center;
+}
+
+.pokemonTitle2{
+    font-size: xx-large;
+}
+
+#totalNew, #totalAnth, #totalNonAnth{
+    font-size: 2em;
+}
+#totalAnth {
+    color:#ED2839;
+}
+
+#totalNonAnth {
+    color:#C0C0C0;
+}
