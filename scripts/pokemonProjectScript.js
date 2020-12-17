@@ -370,14 +370,14 @@ function loadTreeMap(region) {
 }
 
 featuredDict = {
-    'Kanto': ["/images/Charizard.webp", "/images/Pikachu.webp", "/images/Jigglypuff.webp"],
-    'Johto': ["/images/Noctowl.webp", "/images/Wobbuffet.webp", "/images/Totodile.webp"],
-    'Hoenn': ["/images/Metagross.webp", "/images/Rayquaza.webp", "/images/Gardevoir.webp"],
-    'Sinnoh':["/images/Lucario.webp","/images/Lumineon.webp", "/images/Lopunny.webp"],
-    'Unova': ["/images/Cottonee.webp", "/images/Reuniclus.png", "/images/Excadrill.webp"],
-    'Kalos':["/images/Greninja.webp", "/images/Trevenant.webp", "/images/Braixen.png"],
-    'Alola':["/images/Incineroar.webp", "/images/Necrozma-Ultra.webp", "/images/Mimikyu.webp"],
-    'Galar':["/images/Hatenna.webp", "/images/Scorbunny.png", "/images/Dottler.webp"]
+    'Kanto': ["images/Charizard.webp", "images/Pikachu.webp", "images/Jigglypuff.webp"],
+    'Johto': ["images/Noctowl.webp", "images/Wobbuffet.webp", "images/Totodile.webp"],
+    'Hoenn': ["images/Metagross.webp", "images/Rayquaza.webp", "images/Gardevoir.webp"],
+    'Sinnoh':["images/Lucario.webp","images/Lumineon.webp", "images/Lopunny.webp"],
+    'Unova': ["images/Cottonee.webp", "images/Reuniclus.png", "images/Excadrill.webp"],
+    'Kalos':["images/Greninja.webp", "images/Trevenant.webp", "images/Braixen.png"],
+    'Alola':["images/Incineroar.webp", "images/Necrozma-Ultra.webp", "images/Mimikyu.webp"],
+    'Galar':["images/Hatenna.webp", "images/Scorbunny.png", "images/Dottler.webp"]
 }
 descriptionDict = {
     'Kanto': [
