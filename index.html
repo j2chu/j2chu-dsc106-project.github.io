@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<title>Pokemon Body Shapes</title>
+	<link href="https://fonts.googleapis.com/css?family=Paytone+One&display=swap" rel="stylesheet" />
+	<link href="./styles/pokemonProject.css" rel="stylesheet" />
+
+	<script src="https://code.highcharts.com/highcharts.js"></script>
+	<script src="https://code.highcharts.com/modules/treemap.js"></script>
+
+
+	<script src="./scripts/pokemonProjectScript.js"></script>
+</head>
+
+<body>
+	<section id="title">
+		<img class="pokemonTitle" src="/images/Pokemon-logo.png" alt="Pokémon Title"/>
+		<img class="pokemonTitle" src="/images/Pokemon-logo2.png" alt="Pokémon Title"/>
+		<p class="subtitle">Anthropomorphic body shapes contribute a larger proportion of new Pokemon designs (new Pokemon, new formes, etc.) compared to other body types throughout the generations.</p>
+	</section>
+	<hr>
+	<p class="subtitle">Click on the region maps to explore each region.</p>
+	<section id="regions1" class="flex">
+		<div class="region" id="Kanto">
+			<h3>Kanto</h3>
+			<p>Generation 1</p>
+			<img class="region_image" src="/images/Kanto_Map.png" alt="Kanto Map"/>
+		</div>
+		<div class="region" id="Johto">
+			<h3>Johto</h3>
+			<p>Generation 2</p>
+			<img class="region_image" src="/images/Johto_Map.png" alt="Johto Map"/>
+		</div>
+		<div class="region" id="Hoenn">
+			<h3>Hoenn</h3>
+			<p>Generation 3</p>
+			<img class="region_image" src="/images/Hoenn_Map.png" alt="Hoenn Map"/>
+		</div>
+		<div class="region" id="Sinnoh">
+			<h3>Sinnoh</h3>
+			<p>Generation 4</p>
+			<img class="region_image" src="/images/Sinnoh_Map.webp" alt="Sinnoh Map"/>
+		</div>
+	</section>
+	<br>
+	<br>
+	<br>
+	<section id="regions2" class="flex">
+		<div class="region" id="Unova">
+			<h3>Unova</h3>
+			<p>Generation 5</p>
+			<img class="region_image" src="/images/Unova_Map.webp" alt="Unova Map"/>
+		</div>
+		<div class="region" id="Kalos">
+			<h3>Kalos</h3>
+			<p>Generation 6</p>
+			<img class="region_image" src="/images/Kalos_Map.webp" alt="Kalos Map"/>
+		</div>
+		<div class="region" id="Alola">
+			<h3>Alola</h3>
+			<p>Generation 7</p>
+			<img class="region_image" src="/images/Alola_Map.png" alt="Alola Map"/>
+		</div>
+		<div class="region" id="Galar">
+			<h3>Galar</h3>
+			<p>Generation 8</p>
+			<img class="region_image" src="/images/Galar_Map.webp" alt="Galar Map"/>
+		</div>
+	</section>
+	<hr>
+
+	<section id="totals" class="flex">
+		<div>
+			<h3>Total New Pokemon Designed</h3>
+			<p id="totalNew">1067</p>
+		</div>
+		<div>
+			<h3>New Anthropomorphic Pokemon Designed</h3>
+			<p id="totalAnth">0</p>
+		</div>
+		<div>
+			<h3>New Non-Anthropomorphic Pokemon Designed</h3>
+			<p id="totalNonAnth">0</p>
+		</div>
+	</section>
+
+	<section id="summaryCharts" class="chart-parent--container">
+		<section id="pieChart" class="chart--container"></section>
+		<section id="treeMap" class="chart--container"></section>
+	</section>
+
+	<hr />
+	<section id="featured">
+		<h3 class="pokemon_gen_highlight"></h3>
+	</section>
+
+	<section id="description">
+		<section id="pokemonDescriptions1">
+			<img class="pokemon" src="" alt="featured pokemon 1"/>
+			<p class="pokemon_name"></p>
+			<p class="pokemon_body_shape"></p>
+			<p class="pokemon_type"></p>
+		</section>
+
+		<section id="pokemonDescriptions2">
+			
+			<img class="pokemon" src="" alt="featured pokemon 2"/>
+			<p class="pokemon_name"></p>
+			<p class="pokemon_body_shape"></p>
+			<p class="pokemon_type"></p>
+		</section>
+
+		<section id="pokemonDescriptions3">
+			<img class="pokemon" src="" alt="featured pokemon 3"/>
+			<p class="pokemon_name"></p>
+			<p class="pokemon_body_shape"></p>
+			<p class="pokemon_type"></p>
+		</section>
+	</section>
+
+	<hr />
+	<section id="columnChart"></section>
+
+	<footer>
+		<p>
+			Sources:
+			<br>
+			<a href="https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_shape">List of Pokemon by shape</a>
+			<br>
+			<a href="https://www.pokemon.com/us/pokedex/">Pokedex</a>
+	</p>
+	</footer>
+
+</body>
+
+</html>
